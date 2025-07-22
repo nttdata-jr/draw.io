@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0" version="28.0.6">
+  <diagram name="Page-1" id="B7M1DgIfifEXnKjvgsFD">
+    <mxGraphModel dx="901" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_xJulsko1oJTj6FRR3yk-2" value="«inputs»&lt;br&gt;&lt;div&gt;&lt;b&gt;Text: Nombre Repositorio&lt;br&gt;List: FrontEnd / BackEnd&lt;/b&gt;&lt;/div&gt;List: Java / .NET Core" style="html=1;whiteSpace=wrap;fillColor=none;labelBorderColor=light-dark(#000000,#000000);fontColor=light-dark(default, #000000);" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_xJulsko1oJTj6FRR3yk-11" value="Step 1: Set Up" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;rounded=1;strokeColor=#0e8088;fillColor=#b0e3e6;" vertex="1" parent="1">
+          <mxGeometry x="230" y="220" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="_xJulsko1oJTj6FRR3yk-12" value="inp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontColor=light-dark(#000000,#000000);" vertex="1" parent="_xJulsko1oJTj6FRR3yk-11">
+          <mxGeometry y="29" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="_xJulsko1oJTj6FRR3yk-15" value="&lt;div&gt;&lt;b&gt;Estructura workflow&lt;/b&gt;&lt;/div&gt;&lt;div&gt;.github/&lt;/div&gt;&amp;nbsp; workflows/&lt;br&gt;&amp;nbsp; &amp;nbsp; main.yml&amp;nbsp; &amp;lt;-- Orquestador central&lt;br&gt;&amp;nbsp; &amp;nbsp; create-repo.yml&amp;nbsp; &amp;lt;-- Workflow reusable para crear repos&lt;br&gt;&amp;nbsp; actions/&lt;br&gt;&amp;nbsp; &amp;nbsp; setup-java/&lt;br&gt;&amp;nbsp; &amp;nbsp; setup-dotnet/&lt;br&gt;&amp;nbsp; &amp;nbsp; setup-angular/&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; setup-react/&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="230" y="25" width="320" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
